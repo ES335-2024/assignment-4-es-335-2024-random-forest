@@ -27,3 +27,13 @@
 - *Testing accuracy:  0.6499999761581421*
 - *No. of parameters:  30784193*
 - The MLP performs better than VGG3 models but is poor than VGG1 and VGG16 fine-tuned on MLP layers. From this we can conclude that the models having lower no. of parameters(except pre-trained VGG16) are performing poorly than the models having high parameters.
+---
+![VGG1.png](VGG1.png)
+---
+![VGG3_2.png](VGG3.png)
+---
+![VGG_data_aug2.png](VGG_data_aug.png)
+---
+![VGG16_All.png](VGG16_All.png)
+---
+![VGG16_MLP.png](VGG16_MLP.png)
