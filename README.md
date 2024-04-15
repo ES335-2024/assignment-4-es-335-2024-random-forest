@@ -19,3 +19,11 @@
 - Increasing the number of epochs from 1 to 5 increases the accuracy across the models. However, increasing the epochs above this does not improve the accuracy significantly. The possible reason for this must be that the training accuracy is already around 0.95 to 1 at epoch ~5 and hence their is no scope of betterment in the model from here and as a result, the test accuracy does not increase even after increasing epochs afterwards.
 ---
 - The model is often confused where the images are too small or the animal covers very small area or in other words, the background is prominent in the image. This confuses the modek as there is little information to conclusively conclude the class of the animal.
+---
+### MLP Performance
+- *Training time:  7.0058488845825195*
+- *Training accuracy:  0.512499988079071*
+- *Training loss:  1.4311714172363281*
+- *Testing accuracy:  0.6499999761581421*
+- *No. of parameters:  30784193*
+- The MLP performs better than VGG3 models but is poor than VGG1 and VGG16 fine-tuned on MLP layers. From this we can conclude that the models having lower no. of parameters(except pre-trained VGG16) are performing poorly than the models having high parameters.
