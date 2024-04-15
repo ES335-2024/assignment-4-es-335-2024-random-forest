@@ -32,7 +32,7 @@
 ---
 ![VGG3.png](VGG3_2.png)
 ---
-![VGG_data_aug2.png](VGG_data_aug.png)
+![VGG_data_aug.png](VGG_data_aug2.png)
 ---
 ![VGG16_All.png](VGG16_All.png)
 ---
